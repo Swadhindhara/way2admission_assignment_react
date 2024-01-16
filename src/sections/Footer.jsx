@@ -3,7 +3,7 @@ function Footer() {
         <>
             <div className="footer">
                 <div className="footer_logo">
-                    <img src="./src/assets/logo.png" alt="" />
+                    <img src="./public/assets/logo.png" alt="" />
                     <p>Explore the most simplified admission assistance at
                         Way2Admission. Guiding talents to make them
                         reach the peak of success with personalized

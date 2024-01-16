@@ -135,12 +135,22 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 92dvh;
 }
 
 .countries img {
   width: 40%;
 }
+.resources {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 92dvh;
+}
 
+.resources img {
+  width: 40%;
+}
 .main {
   background-image: url('./assets/girl_background.jpg');
   background-position: center;
@@ -279,6 +289,11 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+.university_card:hover{
+  box-shadow: 2px 2px 8px 1px #000000;
+  transition: 1s linear ease-in-out;
+  border: #545454;
 }
 
 .university_top {
@@ -595,6 +610,12 @@
   border-radius: 10px;
   background-color: #ffffff;
 }
+.office_card:hover{
+  box-shadow: 2px 2px 8px 1px #000000;
+  transition: 1s linear ease-in-out;
+  border: #545454;
+  background-color: #ece5d9;
+}
 
 .office_card h4 {
   color: #002365;
@@ -879,7 +900,12 @@ li {
     width: 350px;
     font-size: 15px;
   }
-
+  .countries img {
+    width: 100%;
+  }
+  .resources img{
+    width: 100%;
+  }
   .main_line {
     height: 60px;
   }

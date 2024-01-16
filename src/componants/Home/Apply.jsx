@@ -3,7 +3,7 @@ import Apply_box from "./Apply_box";
 function Apply() {
 
     let applyObj = {
-        icon: "./src/assets/briefcase-solid.svg",
+        icon: "./public/assets/briefcase-solid.svg",
         text: "Corporate Administration"
     }
 
@@ -28,11 +28,11 @@ function Apply() {
                 <div className="right"><p>CAD 28,000 - CAD 57,000 (INR 16,80,153 - 34,20,312) per year</p></div>
                     <h4>Popular University</h4>
                     <div className="university_box">
-                        <img src="./src/assets/uni_icon.jpg" alt="" />
-                        <img src="./src/assets/uni_icon.jpg" alt="" />
-                        <img src="./src/assets/uni_icon.jpg" alt="" />
-                        <img src="./src/assets/uni_icon.jpg" alt="" />
-                        <img src="./src/assets/uni_icon.jpg" alt="" />
+                        <img src = "./public/assets/uni_icon.jpg" alt="" />
+                        <img src = "./public/assets/uni_icon.jpg" alt="" />
+                        <img src = "./public/assets/uni_icon.jpg" alt="" />
+                        <img src = "./public/assets/uni_icon.jpg" alt="" />
+                        <img src = "./public/assets/uni_icon.jpg" alt="" />
                     </div>
                 </div>
             </div>
