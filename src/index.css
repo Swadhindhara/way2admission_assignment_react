@@ -152,7 +152,7 @@
   width: 40%;
 }
 .main {
-  background-image: url('./assets/girl_background.jpg');
+  background-image: url('../public/assets/girl_background.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -566,7 +566,7 @@
 }
 
 .learning {
-  background-image: url('./assets/sit_girl.jpg');
+  background-image: url('../public/assets/sit_girl.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -878,7 +878,7 @@ li {
     width: 100px;
   }
   .main {
-    background-image: url('./assets/girl_background_mobile.jpg');
+    background-image: url('../public/assets/girl_background_mobile.jpg');
     background-size: cover;
     height: 80vh;
   }
@@ -1025,7 +1025,7 @@ li {
     margin-bottom: -10px;
   }
   .learning{
-    background-image: url('./assets/sit_girl_mobile.jpg');
+    background-image: url('../public/assets/sit_girl_mobile.jpg');
     background-size: cover;
     height: 80vh;
     margin-top: 10%;
