@@ -573,7 +573,7 @@
 }
 
 .learning {
-  background-image: url('../public/assets/sit_girl.jpg');
+  background-image: url('./assets/sit_girl.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -895,7 +895,7 @@ li {
   }
 
   .main {
-    background-image: url('../public/assets/girl_background_mobile.jpg');
+    background-image: url('./assets/girl_background_mobile.jpg');
     background-size: cover;
     height: 80vh;
   }
@@ -1066,7 +1066,7 @@ li {
   }
 
   .learning {
-    background-image: url('../public/assets/sit_girl_mobile.jpg');
+    background-image: url('./assets/sit_girl_mobile.jpg');
     background-size: cover;
     height: 80vh;
     margin-top: 10%;
@@ -1134,9 +1134,9 @@ li {
 }
 
 @media screen and (max-width: 375px) {
-  body {
+  /* body {
     border: 2px solid red;
-  }
+  } */
 
   .main_text h1 {
     font-size: 35px;
@@ -1183,4 +1183,27 @@ li {
     width: 320px;
   }
 
+  .university_card img {
+    width: 320px;
+  }
+
+  .university_card h4 {
+    width: 300px;
+  }
+
+  .university_card p {
+    width: 300px;
+  }
+
+  .footer_logo {
+    width: 90%;
+  }
+
+  .footer_logo p {
+    width: 315px;
+    font-size: 14px;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+  }
 }

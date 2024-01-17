@@ -1,9 +1,10 @@
 import University_card from "./University_card"
+import University_img from "../../assets/university.jpg"
 
 function University() {
 
     let cardObj = {
-        image: "./public/assets/university.jpg",
+        image: University_img,
         heading: "Welcoming Diverse Academic Backgrounds for Admission",
         subHeading: "In a nutshell, the MBA program welcomes students from diverse academic backgrounds, emphasizing the .............. "
     }

@@ -1,7 +1,9 @@
+import background from "../../assets/under_maintanance1.jpg"
+
 function Masters() {
     return (
         <div className="mid">
-            <img src="./public/assets/under_maintanance1.jpg" alt="" />
+            <img src={background} alt="" />
         </div>
     )
 }

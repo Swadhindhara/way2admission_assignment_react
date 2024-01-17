@@ -1,24 +1,26 @@
 import Office_card from './Office_card'
+import kolkata_img from "../../assets/kolkata.png"
+import mumbai_img from "../../assets/mumbai.png"
 
 function Office() {
 
     const kol = {
-        icon: "./public/assets/kolkata.png",
+        icon: kolkata_img,
         heading: "Kolkata Office",
         address: "15C, Sarat Bose Road, Bhowanipore, 700020 admissions@way2admission.in +91 9038602888 +91 9038602888"
     }
     const delhi = {
-        icon: "./public/assets/mumbai.png",
+        icon: mumbai_img,
         heading: "Delhi Office",
         address: "15C, Sarat Bose Road, Bhowanipore, 700020 admissions@way2admission.in +91 9038602888 +91 9038602888"
     }
     const pune = {
-        icon: "./public/assets/kolkata.png",
+        icon: kolkata_img,
         heading: "Pune Office",
         address: "15C, Sarat Bose Road, Bhowanipore, 700020 admissions@way2admission.in +91 9038602888 +91 9038602888"
     }
     const siliguri = {
-        icon: "./public/assets/kolkata.png",
+        icon: kolkata_img,
         heading: "Siliguri Office",
         address: "15C, Sarat Bose Road, Bhowanipore, 700020 admissions@way2admission.in +91 9038602888 +91 9038602888"
     }

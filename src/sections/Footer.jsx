@@ -1,9 +1,11 @@
+import logo from "../assets/logo.png";
+
 function Footer() {
     return (
         <>
             <div className="footer">
                 <div className="footer_logo">
-                    <img src="./public/assets/logo.png" alt="" />
+                    <img src={logo} alt="" />
                     <p>Explore the most simplified admission assistance at
                         Way2Admission. Guiding talents to make them
                         reach the peak of success with personalized

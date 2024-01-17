@@ -1,8 +1,10 @@
+import background from "../../assets/under_maintanance2.jpg"
+
 function Resources() {
     return (
         <>
             <div className="resources">
-                <img src="./public/assets/under_maintanance2.jpg" alt="" />
+                <img src={background} alt="" />
             </div>
         </>
     )
