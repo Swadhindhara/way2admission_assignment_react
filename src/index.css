@@ -158,7 +158,7 @@
 }
 
 .main {
-  background-image: url('../public/assets/girl_background.jpg');
+  background-image: url('./assets/girl_background.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
