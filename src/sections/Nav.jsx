@@ -1,11 +1,11 @@
 import { Link, NavLink } from "react-router-dom";
 import { useState } from "react";
-import {logo} from "../assets/logo.png";
+import logo from "../assets/logo.png";
 
 function Nav() {
   const [expanded, setExpanded] = useState(false);
 
-  const image = "./public/assets/logo.png"
+  // const image = "./public/assets/logo.png"
 
   return (
     <>
