@@ -1,7 +1,7 @@
-
+// import background from "../../assets/under_maintanance1.jpg"
 
 function Countries() {
-    const image = "./public/assets/under_maintanance1.jpg";
+    const image = "../../assets/under_maintanance1.jpg";
     return (
         <div className="countries">
                 <img src={image} alt="" />
