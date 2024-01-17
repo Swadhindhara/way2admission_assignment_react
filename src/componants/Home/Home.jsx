@@ -11,10 +11,10 @@ function Home() {
         <>
             <Main />
             <Text />
-            {/* <Course />
+            <Course />
             <Admission />
             <University />
-            <Learning /> */}
+            <Learning />
             <Office  />
         </>
     )
