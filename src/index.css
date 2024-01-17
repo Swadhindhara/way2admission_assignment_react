@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
 }
+
 /* body{
   border: 2px solid red;
 } */
@@ -144,6 +145,7 @@
 .countries img {
   width: 40%;
 }
+
 .resources {
   display: flex;
   align-items: center;
@@ -154,6 +156,7 @@
 .resources img {
   width: 40%;
 }
+
 .main {
   background-image: url('../public/assets/girl_background.jpg');
   background-position: center;
@@ -293,7 +296,8 @@
   align-items: center;
   flex-direction: column;
 }
-.university_card:hover{
+
+.university_card:hover {
   box-shadow: 2px 2px 8px 1px #000000;
   transition: 1s linear ease-in-out;
   border: #545454;
@@ -613,7 +617,8 @@
   border-radius: 10px;
   background-color: #ffffff;
 }
-.office_card:hover{
+
+.office_card:hover {
   box-shadow: 2px 2px 8px 1px #000000;
   transition: 1s linear ease-in-out;
   border: #545454;
@@ -696,28 +701,29 @@ li {
   align-items: center;
 }
 
-.mobile-cross-button{
-  display: none;
-}
-.hamburger-menu{
+.mobile-cross-button {
   display: none;
 }
 
-.mid_nav{
+.hamburger-menu {
+  display: none;
+}
+
+.mid_nav {
   transition: width 0.5s ease;
 }
 
-
+/* Screen size max 1200px */
 @media screen and (max-width: 1200px) {
-  .search-box{
+  .search-box {
     display: none;
   }
 }
 
 
-
+/* Screen for tablet 768px */
 @media screen and (max-width: 768px) {
-  .mid_nav{
+  .mid_nav {
     display: block;
     background: white;
     position: fixed;
@@ -727,20 +733,23 @@ li {
     width: 0%;
     transition: width 0.5s ease;
   }
-  .nav_menu{
+
+  .nav_menu {
     display: none;
   }
-  .hamburger-menu{
+
+  .hamburger-menu {
     display: block;
     padding-right: 20px;
     cursor: pointer;
   }
+
   .mid_nav.cus-nav-mobile {
     width: 60%;
     transition: width 0.5s ease;
   }
 
-  .cus-nav-mobile .nav_menu{
+  .cus-nav-mobile .nav_menu {
     height: 100%;
     flex-direction: column;
     align-items: center;
@@ -748,13 +757,15 @@ li {
     position: relative;
     display: flex;
   }
-  .cus-nav-mobile .mobile-cross-button{
+
+  .cus-nav-mobile .mobile-cross-button {
     position: absolute;
     top: 30px;
     right: 30px;
     cursor: pointer;
     display: block;
   }
+
   .right_nav {
     display: none;
   }
@@ -862,24 +873,27 @@ li {
     flex-wrap: wrap;
   }
 
-  .right_nav{
+  .right_nav {
     display: none;
   }
 
 }
 
 
-
+/* screen for mobile 576px */
 @media screen and (max-width: 576px) {
   .header {
     display: none;
   }
-  .nav{
+
+  .nav {
     border-radius: 0px;
   }
-  .left_nav img{
+
+  .left_nav img {
     width: 100px;
   }
+
   .main {
     background-image: url('../public/assets/girl_background_mobile.jpg');
     background-size: cover;
@@ -903,12 +917,15 @@ li {
     width: 350px;
     font-size: 15px;
   }
+
   .countries img {
     width: 100%;
   }
-  .resources img{
+
+  .resources img {
     width: 100%;
   }
+
   .main_line {
     height: 60px;
   }
@@ -938,67 +955,83 @@ li {
     box-shadow: 2px 2px 8px 1px #000000;
     margin-bottom: 20px;
   }
-  .course_card img{
+
+  .course_card img {
     width: 70px;
     margin-bottom: 5px;
   }
-  .course_card h5{
+
+  .course_card h5 {
     font-size: 15px;
   }
-  .tab{
+
+  .tab {
     flex-direction: column;
     border: none;
     gap: 10px;
   }
-  .apply{
+
+  .apply {
     width: 92.5%;
   }
-  .masters{
+
+  .masters {
     width: 92.5%;
   }
-  .bachelors{
+
+  .bachelors {
     width: 92.5%;
   }
-  .admission_top_heading p{
+
+  .admission_top_heading p {
     width: 90%;
     font-size: 15px;
   }
-  .apply_box{
+
+  .apply_box {
     width: 100%;
   }
-  .apply_box_card{
+
+  .apply_box_card {
     gap: 10px;
     justify-content: center;
     align-items: center;
     width: 45%;
   }
-  .apply_box_card img{
+
+  .apply_box_card img {
     width: 40px;
   }
-  .apply_box_card p{
+
+  .apply_box_card p {
     font-size: 15px;
     margin-right: 0px;
     margin-left: 0px;
   }
-  .left{
+
+  .left {
     margin-bottom: 10px;
   }
-  .right{
+
+  .right {
     margin-bottom: 10px;
   }
-  .left_box{
+
+  .left_box {
     align-items: center;
     justify-content: center;
     display: flex;
     flex-direction: column;
   }
-  .right_box{
+
+  .right_box {
     align-items: center;
     justify-content: center;
     display: flex;
     flex-direction: column;
   }
-  .mid{
+
+  .mid {
     padding-left: 0px;
     padding-right: 0px;
     width: 350px;
@@ -1007,10 +1040,12 @@ li {
     align-items: center;
     height: 400px;
   }
-  .mid img{
+
+  .mid img {
     width: 340px;
   }
-  .degree_right{
+
+  .degree_right {
     padding-left: 0px;
     padding-right: 0px;
     width: 350px;
@@ -1019,33 +1054,40 @@ li {
     align-items: center;
     height: 400px;
   }
-  .degree_right img{
+
+  .degree_right img {
     width: 340px;
   }
-  .university_top h1{
+
+  .university_top h1 {
     text-align: center;
     margin-top: 10px;
     margin-bottom: -10px;
   }
-  .learning{
+
+  .learning {
     background-image: url('../public/assets/sit_girl_mobile.jpg');
     background-size: cover;
     height: 80vh;
     margin-top: 10%;
   }
-  .learning_content h5{
+
+  .learning_content h5 {
     color: #002365;
   }
-  .learning_content h1{
+
+  .learning_content h1 {
     color: #f59e0d;
     width: 90%;
     font-size: 30px;
   }
-  .learning_content p{
+
+  .learning_content p {
     color: #fff;
     width: 90%;
   }
-  .office{
+
+  .office {
     position: relative;
     margin-top: 0%;
     padding-top: 10%;
@@ -1054,31 +1096,91 @@ li {
     width: 100%;
     margin-left: 0;
   }
-  .office_card{
+
+  .office_card {
     width: 90%;
   }
-  .footer{
+
+  .footer {
     margin-top: 0%;
   }
-  .list_item{
+
+  .list_item {
     padding: 5px;
   }
-  .footer_menu{
+
+  .footer_menu {
     justify-content: center;
     align-items: center;
     margin-top: 10%;
   }
-  .footer_logo{
+
+  .footer_logo {
     width: 100%;
   }
-  .important{
+
+  .important {
     margin-left: -5%;
   }
-  .copy h4{
+
+  .copy h4 {
     text-align: center;
   }
+
   .mid_nav.cus-nav-mobile {
     width: 80%;
     transition: width 0.5s ease;
   }
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    border: 2px solid red;
+  }
+
+  .main_text h1 {
+    font-size: 35px;
+    width: 350px;
+  }
+
+  .main_text {
+    width: 350px;
+  }
+
+  .course_card {
+    width: 160px;
+  }
+
+  .left_box {
+    width: 95%;
+  }
+
+  .right_box {
+    width: 95%;
+  }
+
+  .apply_box {
+    align-items: center;
+    width: 90%;
+  }
+
+  .university_box img {
+    width: 120px;
+    margin-left: 20px;
+  }
+
+  .university_box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-shadow: 2px 2px 10px 1px #000000;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-top: 10px;
+  }
+
+  .university_card {
+    width: 320px;
+  }
+
 }

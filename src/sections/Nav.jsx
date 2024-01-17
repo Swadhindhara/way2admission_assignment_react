@@ -1,5 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
 import { useState } from "react";
+import {logo} from "../assets/logo.png";
 
 function Nav() {
   const [expanded, setExpanded] = useState(false);
@@ -11,7 +12,7 @@ function Nav() {
       <div className="nav">
         <div className="left_nav">
           <Link to="/">
-            <img src={image} alt="" />
+            <img src={logo} alt="" />
           </Link>
         </div>
         <div className={`mid_nav ${expanded ? "cus-nav-mobile" : ""}`}>
