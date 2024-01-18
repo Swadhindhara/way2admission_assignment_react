@@ -944,11 +944,11 @@ li {
   }
 
   .university_card h4 {
-    width: 340px;
+    width: 90%;
   }
 
   .university_card p {
-    width: 340px;
+    width: 90%;
   }
 
   .learning {
@@ -968,15 +968,15 @@ li {
   }
 
   .office {
-    margin-top: -26%;
     flex-wrap: wrap;
+    margin-top: -60px;
+    background-color: #D3D7E0;
     gap: 10px;
-    width: 90%;
-    margin-left: 5%;
+    width: 100%;
+    position: relative;
   }
 
   .footer {
-    margin-top: -15%;
     padding-top: 20%;
     flex-direction: column;
     justify-content: center;
