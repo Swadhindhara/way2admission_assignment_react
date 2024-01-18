@@ -729,7 +729,7 @@ li {
     /* gap: 10px; */
     justify-content: start;
     flex-wrap: wrap;
-    max-width: 100%;
+    width: calc(100% - 20px);
     margin-top: 20px;
   }
 
