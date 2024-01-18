@@ -782,15 +782,16 @@ li {
   }
 
   .office {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: -50px;
-    position: absolute;
+    flex-wrap: wrap;
+    margin-top: -60px;
+    background-color: #D3D7E0;
+    gap: 10px;
     width: 100%;
+    position: relative;
   }
 
   .office_card {
-    width: calc(25% - 30px);
+    width: calc(50% - 20px);
   }
 
   .office_card img {
