@@ -245,11 +245,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 250px;
+  width: calc(25% - 12.5px);
   height: 250px;
   border-radius: 10px;
   box-shadow: 2px 2px 8px 1px #000000;
-  margin-bottom: 20px;
 }
 
 .course {
@@ -274,10 +273,9 @@
 .course_bottom {
   padding-top: 30px;
   display: flex;
-  gap: 10px;
-  justify-content: space-evenly;
+  gap: 15px;
   flex-wrap: wrap;
-  width: 1200px;
+  max-width: 1200px;
   margin-top: 20px;
 }
 
@@ -729,7 +727,7 @@ li {
     padding-top: 30px;
     display: flex;
     /* gap: 10px; */
-    justify-content: space-evenly;
+    justify-content: start;
     flex-wrap: wrap;
     max-width: 100%;
     margin-top: 20px;
@@ -740,11 +738,10 @@ li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 22%;
+    width: calc(33.3% - 10px);
     height: 230px;
     border-radius: 10px;
     box-shadow: 2px 2px 8px 1px #000000;
-    margin-bottom: 20px;
   }
 
   .course_card img {
@@ -891,6 +888,17 @@ li {
   .course_bottom {
     width: 98%;
   }
+  .course_card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .course_card h5{
+    font-size: 13px;
+  }
+  .course_card p{
+    font-size: 10px;
+  }
 
   .apply_box {
     flex-direction: column;
@@ -928,7 +936,15 @@ li {
     display: flex;
     justify-content: center;
   }
-
+  .tab h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .tab{
+    width: 90%;
+  }
   .university_bottom {
     flex-wrap: wrap;
     justify-content: center;
@@ -953,10 +969,10 @@ li {
 
   .learning {
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    margin-top: -100px;
-    height: 57vh;
+    height: 100%;
+    padding: 150px 0px;
   }
 
   .learning_content {
@@ -1062,18 +1078,18 @@ li {
   }
 
   .course_bottom {
-    width: 100%;
+    width: calc(100% - 20px);
+    padding: 10px;
   }
 
   .course_card {
     /* flex-direction: column; */
     justify-content: center;
     align-items: center;
-    width: 180px;
+    width: calc(50% - 7.5px);
     height: 200px;
     border-radius: 10px;
     box-shadow: 2px 2px 8px 1px #000000;
-    margin-bottom: 20px;
   }
 
   .course_card img {
